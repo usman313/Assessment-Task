@@ -11,7 +11,7 @@ export default function Divider() {
             Divider Component: 6 / {counter}
           </div>
           <div className=''>
-            New Value: {6/counter}
+            New Value: {counter === 0 ? 0 : 6 / counter}
           </div>
         </div>
       </div>
