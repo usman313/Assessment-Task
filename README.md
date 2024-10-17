@@ -1,7 +1,7 @@
-# Backend Developer Assessment
+# Backend Developer Assessment Task
 
 ## Overview
-This project is a payment gateway library built with Node.js and Express. It integrates with PayPal and Braintree to handle credit card payments. The library is designed to be easily extendable for additional payment gateways.
+This project is a payment gateway library built with ExpressJs. It integrates with PayPal and Braintree to handle credit card payments. The library is designed to be easily extendable for additional payment gateways.
 
 ## Features
 - Payment processing through PayPal and Braintree
@@ -11,6 +11,7 @@ This project is a payment gateway library built with Node.js and Express. It int
 
 ## Prerequisites
 - MongoDB (installed and running)
+- Braintree credentials including merchant_id, public_key and private_key
 
 ### Notes:
 - Ensure to fill in the Braintree credentials in the `.env` file.
@@ -19,7 +20,7 @@ This project is a payment gateway library built with Node.js and Express. It int
 ## Getting Started
 
 ### 1. Clone the Repository
-git clone https://github.com/yourusername/backend-develop-assessment.git
+git clone https://github.com/usman313/Assessment-Task.git
 cd backend-develop-assessment
 
 ### 2. Install Node Dependencies
